@@ -7,9 +7,7 @@ const cors = require("cors");
 
 app.use(cors({
   origin: 'https://mondial-ci.vercel.app',
-  credentials: true,
-  methods: 'GET,POST,PUT,DELETE,OPTIONS',
-  allowedHeaders: 'Content-Type,Authorization',
+  credentials: true
 }));
 
 app.use(express.json({limit: '50mb'}));
