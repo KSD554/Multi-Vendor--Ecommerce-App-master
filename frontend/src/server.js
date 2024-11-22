@@ -1,3 +1,3 @@
-export const server = "https://multivendor-zk0e.onrender.com/api/v2";
+export const server = "https://mondial-psi.vercel.app/api/v2";
 
-export const backend_url="https://multivendor-zk0e.onrender.com"
+export const backend_url="https://mondial-psi.vercel.app"
